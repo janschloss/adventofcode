@@ -32,6 +32,7 @@ func processLine(line string) (int, error) {
 
 	}
 
+	// Here we use string concatenation to join the first and last digit
 	concatenatedDigits, err := strconv.Atoi(strconv.Itoa(firstDigit) + strconv.Itoa(lastDigit))
 
 	if err != nil {
