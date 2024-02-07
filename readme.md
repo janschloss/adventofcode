@@ -2,7 +2,7 @@
 
 Here I document my journey through the [Advent of Code (AoC)](https://adventofcode.com) challenges. Advent of Code is an annual set of Christmas-themed programming puzzles that cover a wide range of skills and concepts. It's a great way to improve your coding abilities, learn new algorithms, and get into the festive spirit.
 
-**Disclaimer:** The code in this repository is part of my learning journey with lower level languages, exploring new concepts and solving puzzles. It is not intended to represent production-grade code or best practices. In my professional work I deliver high quality code stemming from almost a decade of experience in the TypeScript ecosystem.
+**Disclaimer:** The code in this repository is part of my learning journey with lower level languages, exploring new concepts and solving puzzles. It is not intended to represent production-grade code or best practices. In my professional work I deliver high quality code stemming from almost a decade of experience in the Node.js ecosystem.
 
 ## Goal
 
