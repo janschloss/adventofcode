@@ -4,6 +4,16 @@ import (
 	"testing"
 )
 
+// Assume processLine is the function you want to benchmark
+// Results without Goroutines:  1076	   1112701 ns/op	   29388 B/op	    1005 allocs/op
+// Result with Goroutines:  	282	   	   4171671 ns/op	   365889 B/op	    7008 allocs/op
+func BenchmarkMain(b *testing.B) {
+	// The b.N value is chosen dynamically by the benchmarking framework to obtain meaningful results
+	for i := 0; i < b.N; i++ {
+		main()
+	}
+}
+
 func TestProcessLine(t *testing.T) {
 	tests := []struct {
 		input    string
